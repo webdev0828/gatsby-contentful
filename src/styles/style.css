@@ -1,0 +1,368 @@
+.active:after{
+    content:"" !important;
+}
+.area1 {
+  height: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.carousel {
+  height: 200px;
+}
+.sli-imag {
+  width: 100%;
+  height: 290px;
+}
+.custom-ind {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+}
+.carousel-indicators {
+  bottom: -100px !important;
+}
+.carousel-indicators li {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50% !important;
+}
+.carousel-indicators li.active {
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+}
+.log {
+  width: 94px;
+  height: 33px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  margin-top: -65%;
+  left: -13%;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Barlow Condensed" !important;
+}
+.test-row {
+  margin-top: 25%;
+}
+.test-row a{
+  cursor: pointer;
+  text-decoration: none;
+}
+.test-row a:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+.active-page {
+  background-color: #1c5bae !important;
+  color: #fff !important;
+  font-family: "Barlow Condensed" !important;
+}
+.chavron {
+  color: #1c5bae !important;
+  font-size: 35px !important;
+  margin-top: -7px;
+}
+.page-item {
+  margin-left: 20px;
+}
+.no-border {
+  border: none !important;
+}
+.page-link-gray {
+  font-family: "Barlow Condensed" !important;
+  color: gray !important;
+  font-weight:700;
+}
+.upcoming {
+  border: none !important;
+  width: 85px;
+  height: 28px;
+  border-radius: 2px;
+  background-color: #1c5bae;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Barlow Condensed" !important;
+}
+.lable {
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Barlow Condensed" !important;
+}
+.label-black {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.price {
+  color: gray;
+  margin-top: -10px;
+  font-size: 18px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.bookmark {
+  position: absolute;
+  margin-top: -65%;
+  margin-left: 53%;
+  width: 33px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50px !important;
+}
+.arrow {
+  width: 32px;
+  height: 32px;
+}
+.area2 {
+  margin-top: 20%;
+}
+.banner {
+  background-image: url("../assets/edsel-ranger-392745_1920.jpg");
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 60% !important;
+  padding-left: 10%;
+}
+@media screen and (min-width: 1600px) {
+  .col-lg-4-extra {
+    margin-top:8%;
+  }
+  .test-row{
+      margin-top:32%;
+  }
+ .carousel-indicators {
+       top: 220% !important;
+}
+.carousel-control-prev,.carousel-control-next{
+    margin-top: 27%;
+}.carousel-indicators{
+ margin-top: 25%;
+}
+.banner {
+    margin-top: 25% !important;
+    height: 909px !important;
+}
+.pagination{
+    margin-top: 28% !important;
+}
+}
+.col-lg-4-extra {
+    margin-top:6%;
+  }
+footer {
+  margin-top: 10%;
+  background-color: #696969 !important;
+}
+.headerlink {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Barlow Condensed" !important;
+}
+.searchimg {
+  width: 24px;
+  height: 23px;
+  margin-left: -28px;
+  z-index: 1000;
+  /* margin: 6px; */
+  margin: 8px -36px;
+}
+
+.custom-nav-change {
+  border: 1px solid #ccc;
+  padding: 24px 30px !important;
+}
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    margin-top: 660%;
+    height: 297px;
+    width: 115%;
+  }
+  footer {
+    margin-top: 640%;
+  }
+  .pagination {
+    position: absolute;
+    top: 815%;
+    margin-top: 55% !important;
+  }
+}
+footer li {
+  margin-bottom: 20px;
+}
+.auction {
+  border: none;
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+  height: 45px;
+  font-weight: bold;
+  width: 200px !important;
+}
+.auction:hover {
+  background-color: #fff;
+  color: #000;
+}
+.upcom {
+  color: #fff;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 10%;
+}
+.area2 {
+  margin-top: 10%;
+}
+.headercat {
+    background: none;
+    border: 1px solid #bfbfbf;
+    font-family: "Barlow Condensed" !important;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 11px 16px;
+    margin-left: 1.6%;
+    color: #555555;
+    border-radius: 5px;
+}
+.fifty {
+  font-family: "Barlow Condensed" !important;
+  color: #242424;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding: 40px 0px;
+}
+.flag {
+  width: 50px;
+  height: 30px;
+  margin-right: 24px;
+}
+.bttnrow {
+  border-bottom: 1px solid #bfbfbf;
+  padding: 20px 0px;
+  text-align: right;
+  padding-right: 30px;
+}
+.pagination {
+  margin-top: 29%;
+  justify-content: center;
+}
+.social {
+  width: 30px;
+  margin-left: 5px;
+}
+body {
+  overflow-x: hidden;
+}
+.copyright {
+  margin: 0 auto;
+ margin-top:5%;
+  display: table;
+  font-size: 13px;
+  font-family: "Poppins";
+}
+.a-i-center {
+  align-items: center;
+}
+
+@media only screen and (min-width: 1994px) {
+    .test-row{
+       
+    margin-top: 45%;
+
+    }
+}
+
+@media (min-width: 768px) {
+  .pad-left-0 {
+    padding-left: 0 !important;
+  }
+}
+.width57 {
+  width: 57%;
+}
+.row-margin-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.bidimage {
+  float: right;
+  width: 24px;
+}
+.footer-form {
+  border: none !important;
+  background: transparent !important;
+  border-bottom: 1px solid #fff !important;
+  border-radius: 0px !important;
+}
+.footer-form::placeholder {
+  color: #fff !important;
+}
+.signup {
+  border-radius: 0px !important;
+  width: 132px;
+  height: 48px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: solid 2px var(--white);
+  float: right;
+}
+.text-white {
+  font-family: "Barlow Condensed" !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+.goog {
+  font-size: 25px;
+}
+.banner {
+  background-image: url("../assets/edsel-ranger-392745_1920.jpg");
+  width: 102%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50%;
+  padding-left: 10%;
+}
+.carousel-indicators {
+   top: 123% !important;
+}
+.page-item:first-child .page-link {
+    margin-right:-16px;
+}
+.page-link {
+    
+    padding: .5rem .85rem !important;
+
+}
+.page-item:last-child .page-link {
+    margin-left: -16px;
+}
+.sub-cat li a {
+  font-size: 12px;
+  font-family: "Barlow Condensed" !important;
+  font-weight: bold;
+  color: #fff;
+  margin-left: -17px;
+}
+.goog {
+  font-size: 25px;
+}
+
+.carousel-item > img {
+  height: 350px!important;
+}

@@ -1,0 +1,553 @@
+body {
+	overflow-x: hidden;
+}
+
+p {
+	line-height: 1.75;
+}
+
+.page-section {
+	padding: 6rem 0;
+}
+.page-section h2.section-heading {
+	font-size: 2.5rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.page-section h3.section-subheading {
+	font-size: 1rem;
+	font-weight: 400;
+	font-style: italic;
+	font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	margin-bottom: 4rem;
+}
+
+/* @media (min-width: 768px) {
+	section {
+		padding: 9rem 0;
+	}
+} */
+/* ::-moz-selection {
+	background: #fed136;
+	text-shadow: none;
+}
+
+::selection {
+	background: #fed136;
+	text-shadow: none;
+}
+
+img::-moz-selection {
+	background: transparent;
+}
+
+img::selection {
+	background: transparent;
+}
+
+img::-moz-selection {
+	background: transparent;
+} */
+
+.btn-xl {
+	padding: 1.25rem 2.5rem;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+
+.btn-social {
+	height: 2.5rem;
+	width: 2.5rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	border-radius: 100%;
+}
+
+#mainNav {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #212529;
+}
+#mainNav .navbar-toggler {
+	padding: 0.75rem;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 0.75rem;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #fed136;
+	border: 0;
+}
+#mainNav .navbar-brand {
+	color: #fed136;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-weight: 700;
+	letter-spacing: 0.0625em;
+	text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+	height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+	font-size: 0.95rem;
+	color: #fff;
+	letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+	color: #fed136;
+}
+
+@media (min-width: 992px) {
+	#mainNav {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		border: none;
+		background-color: transparent;
+		transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+	}
+	#mainNav .navbar-brand {
+		font-size: 1.5em;
+		transition: font-size 0.3s ease-in-out;
+	}
+	#mainNav .navbar-brand img {
+		height: 2rem;
+		transition: height 0.3s ease-in-out;
+	}
+	#mainNav.navbar-shrink {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		background-color: #212529;
+	}
+	#mainNav.navbar-shrink .navbar-brand {
+		font-size: 1.25em;
+	}
+	#mainNav.navbar-shrink .navbar-brand svg,
+	#mainNav.navbar-shrink .navbar-brand img {
+		height: 1.5rem;
+	}
+	#mainNav .navbar-nav .nav-item {
+		margin-right: 1rem;
+	}
+	#mainNav .navbar-nav .nav-item:last-child {
+		margin-right: 0;
+	}
+}
+header.masthead {
+	position: relative;
+	height: 100vh;
+	padding-top: 10.5rem;
+	padding-bottom: 6rem;
+	text-align: center;
+	color: #fff;
+	background-image: url('../assets/hero.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+}
+header.masthead .masthead-subheading {
+	font-size: 1.5rem;
+	font-style: italic;
+	line-height: 1.5rem;
+	margin-bottom: 25px;
+	font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+header.masthead .masthead-heading {
+	font-size: 3.25rem;
+	font-weight: 700;
+	line-height: 3.25rem;
+	margin-bottom: 2rem;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 768px) {
+	header.masthead {
+		padding-top: 17rem;
+		padding-bottom: 12.5rem;
+	}
+	header.masthead .masthead-subheading {
+		font-size: 2.25rem;
+		font-style: italic;
+		line-height: 2.25rem;
+		margin-bottom: 2rem;
+	}
+	header.masthead .masthead-heading {
+		font-size: 4.5rem;
+		font-weight: 700;
+		line-height: 4.5rem;
+		margin-bottom: 4rem;
+	}
+}
+
+.active:after{
+    content:"" !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+}
+h1 {
+  font-size: 56px;
+}
+@media screen and (min-width: 1900px) {
+    .extra-padding{
+    padding: 0px 6%;
+}
+}
+    .extra-padding{
+    padding: 0px 6%;
+}
+@media screen and (max-width: 2992px) {
+     .test-row{
+    margin-top: 30% !important;
+  }
+    
+}
+@media screen and (max-width: 1900px) {
+
+  .test-row{
+    margin-top: 26% !important;
+  }
+
+.carousel-control-prev,.carousel-control-next{
+    margin-top: 10%;
+
+}
+
+}
+
+p {
+  font-family: "Poppins";
+}
+
+.font-barlow {
+  font-family: "Barlow Condensed" !important;
+  font-weight: bold;
+}
+
+.font-poppin {
+  font-family: "Poppins", sans-serif;
+}
+
+.login-container {
+  margin-left: auto;
+}
+
+.slide-wrapper {
+  height: 400px;
+}
+
+footer li {
+  margin-bottom: 20px;
+ 
+}
+footer{
+    background-color: #696969 !important;
+}
+.slide-image {
+  height: 600px;
+  width: 80%;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
+  margin: 10px;
+}
+
+.section-slider {
+  padding: 0;
+}
+
+.accordion {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-left: none;
+  border-right: none;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+/* .active,
+.accordion:hover {
+	background-color: #ccc;
+} */
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.top-button-container {
+  position: absolute;
+  top: 18%;
+  right: 2%;
+  display: flex;
+}
+
+.back-button {
+  position: absolute;
+  top: 18%;
+  left: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.cta-button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+
+.outline-button {
+  border: 2px solid white;
+  padding: 5px 15px;
+  margin-left: 10px;
+}
+
+.bottom-sliders {
+  padding-top: 0;
+}
+
+/* From Fatema  */
+.area1 {
+  /* height: 200px; */
+}
+.carousel {
+  height: 200px;
+}
+.sli-imag {
+  width: 100%;
+  height: 290px;
+}
+.custom-ind {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+.carousel-indicators li {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50% !important;
+}
+.carousel-indicators li.active {
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+}
+.log {
+  width: 100px;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  margin-top: -73%;
+  left: -13%;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.test-row {
+  margin-top: 25%;
+}
+.upcoming {
+  border: none !important;
+  width: 85px;
+  height: 28px;
+  border-radius: 2px;
+  background-color: #1c5bae;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Barlow Condensed" !important;
+}
+.lable {
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Barlow Condensed" !important;
+}
+.label-black {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.price {
+  color: gray;
+  margin-top: -10px;
+  font-size: 18px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.fa-arrow-right,
+.fa-arrow-left {
+  font-size: 34px !important;
+}
+.bookmark {
+  position: absolute;
+  margin-top: -70%;
+  margin-left: 53%;
+  width: 33px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 100px !important;
+}
+.carousel-indicators {
+  top: 240px !important;
+}
+.arrow {
+  width: 32px;
+  height: 32px;
+}
+.social {
+  width: 36px;
+}
+
+.button {
+  border-radius: 2px;
+  background-color: #1c5bae;
+  font-family: "Barlow Condensed" !important;
+  font-weight: bold;
+  padding: 10px 18px;
+  color: white;
+  display: inline-block;
+}
+
+.nav-flag {
+  height: 24px;
+  margin-right: 20px;
+}
+
+.bar-line {
+  width: 72px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #696969;
+}
+
+.section-details {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pagination {
+  display: flex;
+}
+
+.related-vehicle-text {
+  padding-left: 10px!important;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.bidimage {
+  float: right;
+  width: 24px;
+}
+.signup-btn {
+  margin-top: 25px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  float: right;
+}
+.signup {
+  border-radius: 0px !important;
+  width: 132px;
+  height: 48px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border: solid 2px var(--white);
+  float: right;
+}
+.footer-form {
+  border: none ;
+  background: transparent ;
+  border-bottom: 1px solid #fff ;
+  border-radius: 0px;
+}
+.footer-form::placeholder {
+  color: #fff !important;
+}
+.email-input {
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid white;
+  box-shadow: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+}
+.copyright {
+   
+  margin: 0 auto;
+   margin-top:5%;
+  display: table;
+  font-size: 13px;
+  font-family: "Poppins";
+  text-align:center;
+}
+.goog {
+  font-size: 25px;
+}
+.text-white {
+  font-family: "Barlow Condensed" !important;
+  font-weight: bold;
+  font-size: 16px;
+}
+.sub-cat li a {
+  font-size: 12px;
+  font-family: "Barlow Condensed" !important;
+  font-weight: bold;
+  color: #fff;
+  margin-left: -17px;
+}
+.fs24{
+    font-size:24px;
+}
